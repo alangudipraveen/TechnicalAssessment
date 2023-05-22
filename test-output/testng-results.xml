@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-22T12:45:55 IST" name="Default suite" finished-at="2023-05-22T12:47:10 IST" duration-ms="74948">
+    <groups>
+    </groups>
+    <test started-at="2023-05-22T12:45:55 IST" name="Default test" finished-at="2023-05-22T12:47:10 IST" duration-ms="74948">
+      <class name="com.assessment.PatientMedicalRecord">
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:45:55 IST" name="launchurl" finished-at="2023-05-22T12:45:57 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:45:57 IST" name="setup" finished-at="2023-05-22T12:45:57 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:1, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:45:57 IST" name="test1" description="URL launched successfully" finished-at="2023-05-22T12:46:01 IST" duration-ms="3615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:01 IST" name="teardown" finished-at="2023-05-22T12:46:01 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=PatientMedicalRecord.test1()[pri:1, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:01 IST" name="setup" finished-at="2023-05-22T12:46:01 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test2()[pri:2, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:01 IST" name="test2" description="Enter Username and password" finished-at="2023-05-22T12:46:02 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:02 IST" name="teardown" finished-at="2023-05-22T12:46:02 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=PatientMedicalRecord.test2()[pri:2, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:02 IST" name="setup" finished-at="2023-05-22T12:46:02 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test3()[pri:3, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:02 IST" name="test3" description="Pick any location below and click on Login" finished-at="2023-05-22T12:46:04 IST" duration-ms="2321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:04 IST" name="teardown" finished-at="2023-05-22T12:46:04 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3 status=SUCCESS method=PatientMedicalRecord.test3()[pri:3, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:04 IST" name="setup" finished-at="2023-05-22T12:46:04 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test4()[pri:4, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:04 IST" name="test4" description="Verify dashboard page is redirected using Assertion" finished-at="2023-05-22T12:46:04 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:04 IST" name="teardown" finished-at="2023-05-22T12:46:04 IST" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test4 status=SUCCESS method=PatientMedicalRecord.test4()[pri:4, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:04 IST" name="setup" finished-at="2023-05-22T12:46:04 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test5()[pri:5, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:04 IST" name="test5" description="Cick on Register a patient menu" finished-at="2023-05-22T12:46:09 IST" duration-ms="5036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:09 IST" name="teardown" finished-at="2023-05-22T12:46:09 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5 status=SUCCESS method=PatientMedicalRecord.test5()[pri:5, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:09 IST" name="setup" finished-at="2023-05-22T12:46:09 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test6()[pri:6, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:09 IST" name="test6" description="Enter the detail of Demographics(Name, Gender, Birthdate) and Contact Info(Address, Phone number" finished-at="2023-05-22T12:46:11 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:11 IST" name="teardown" finished-at="2023-05-22T12:46:11 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test6 status=SUCCESS method=PatientMedicalRecord.test6()[pri:6, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:11 IST" name="setup" finished-at="2023-05-22T12:46:11 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test7()[pri:7, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:11 IST" name="test7" description="Then at Confirm page, verify the given Name, Gender, Birthdate, Address, Phone number are populated correctly using Assertion" finished-at="2023-05-22T12:46:12 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:12 IST" name="teardown" finished-at="2023-05-22T12:46:12 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test7 status=SUCCESS method=PatientMedicalRecord.test7()[pri:7, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:12 IST" name="setup" finished-at="2023-05-22T12:46:12 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test8()[pri:8, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:12 IST" name="test8" description="Click on Confirm and verify Patient details page is redirected and verify the age is calculated correctly based on the date of birth provided" finished-at="2023-05-22T12:46:17 IST" duration-ms="5320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:17 IST" name="teardown" finished-at="2023-05-22T12:46:17 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test8 status=SUCCESS method=PatientMedicalRecord.test8()[pri:8, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:17 IST" name="setup" finished-at="2023-05-22T12:46:17 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test9()[pri:9, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:17 IST" name="test9" description="Click on Start Visit and Confirm the visit" finished-at="2023-05-22T12:46:18 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:18 IST" name="teardown" finished-at="2023-05-22T12:46:18 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test9 status=SUCCESS method=PatientMedicalRecord.test9()[pri:9, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:18 IST" name="setup" finished-at="2023-05-22T12:46:18 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test10()[pri:10, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:18 IST" name="test10" description=" Click on Attachment and complete the upload process" finished-at="2023-05-22T12:46:35 IST" duration-ms="16917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:35 IST" name="teardown" finished-at="2023-05-22T12:46:35 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test10 status=SUCCESS method=PatientMedicalRecord.test10()[pri:10, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:35 IST" name="setup" finished-at="2023-05-22T12:46:35 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test11()[pri:11, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:35 IST" name="test11" description="Verify toaster message is appeared for the successful attachment" finished-at="2023-05-22T12:46:35 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:35 IST" name="teardown" finished-at="2023-05-22T12:46:35 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test11 status=SUCCESS method=PatientMedicalRecord.test11()[pri:11, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:35 IST" name="setup" finished-at="2023-05-22T12:46:35 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test12()[pri:12, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:35 IST" name="test12" description=" Redirect to Patient details screen" finished-at="2023-05-22T12:46:37 IST" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:37 IST" name="teardown" finished-at="2023-05-22T12:46:37 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test12 status=SUCCESS method=PatientMedicalRecord.test12()[pri:12, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:37 IST" name="setup" finished-at="2023-05-22T12:46:37 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test13()[pri:13, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:37 IST" name="test13" description="Verify Attachment section has attachment" finished-at="2023-05-22T12:46:38 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:38 IST" name="teardown" finished-at="2023-05-22T12:46:38 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test13 status=SUCCESS method=PatientMedicalRecord.test13()[pri:13, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:38 IST" name="setup" finished-at="2023-05-22T12:46:38 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test14()[pri:14, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:38 IST" name="test14" description="Verfiy Recent Visit has one entry for current date with Attachment Upload tag" finished-at="2023-05-22T12:46:39 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:39 IST" name="teardown" finished-at="2023-05-22T12:46:39 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test14 status=SUCCESS method=PatientMedicalRecord.test14()[pri:14, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:39 IST" name="setup" finished-at="2023-05-22T12:46:39 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test15()[pri:15, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:39 IST" name="test15" description="Click on the End Visit action at RHS" finished-at="2023-05-22T12:46:39 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:39 IST" name="teardown" finished-at="2023-05-22T12:46:39 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test15 status=SUCCESS method=PatientMedicalRecord.test15()[pri:15, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:39 IST" name="setup" finished-at="2023-05-22T12:46:39 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test16()[pri:16, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:39 IST" name="test16" description="Start Visit again and Click on Capture Vitals menu" finished-at="2023-05-22T12:46:47 IST" duration-ms="7922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:47 IST" name="teardown" finished-at="2023-05-22T12:46:47 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test16 status=SUCCESS method=PatientMedicalRecord.test16()[pri:16, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:47 IST" name="setup" finished-at="2023-05-22T12:46:47 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test17()[pri:17, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:47 IST" name="test17" description=" Enter Height &amp; Weight and Verify displayed BMI is calculated correctly using BMI formula" finished-at="2023-05-22T12:46:48 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test17 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:48 IST" name="teardown" finished-at="2023-05-22T12:46:48 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test17 status=SUCCESS method=PatientMedicalRecord.test17()[pri:17, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:48 IST" name="setup" finished-at="2023-05-22T12:46:48 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test18()[pri:18, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:48 IST" name="test18" description="Click on Save Form and Save button" finished-at="2023-05-22T12:46:48 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:48 IST" name="teardown" finished-at="2023-05-22T12:46:48 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test18 status=SUCCESS method=PatientMedicalRecord.test18()[pri:18, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:48 IST" name="setup" finished-at="2023-05-22T12:46:48 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test19()[pri:19, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:48 IST" name="test19" description="Click on End Visit and redirect to Patient details page" finished-at="2023-05-22T12:46:55 IST" duration-ms="6689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test19 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:55 IST" name="teardown" finished-at="2023-05-22T12:46:55 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test19 status=SUCCESS method=PatientMedicalRecord.test19()[pri:19, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:55 IST" name="setup" finished-at="2023-05-22T12:46:55 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test20()[pri:20, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:55 IST" name="test20" description="In Patient details screen, verify the given Height and Weight is displayed correctly along with calculated BMI" finished-at="2023-05-22T12:46:55 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test20 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:55 IST" name="teardown" finished-at="2023-05-22T12:46:55 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test20 status=SUCCESS method=PatientMedicalRecord.test20()[pri:20, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:55 IST" name="setup" finished-at="2023-05-22T12:46:55 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test21()[pri:21, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:55 IST" name="test21" description="Verfiy Recent Visit has one more new entry for current date with Vitals tag" finished-at="2023-05-22T12:46:56 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test21 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:56 IST" name="teardown" finished-at="2023-05-22T12:46:56 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test21 status=SUCCESS method=PatientMedicalRecord.test21()[pri:21, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:56 IST" name="setup" finished-at="2023-05-22T12:46:56 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test22()[pri:22, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:56 IST" name="test22" description="Click on Merge Visits, select these 2 visit and click on Merge Selected Visits button" finished-at="2023-05-22T12:46:59 IST" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:59 IST" name="teardown" finished-at="2023-05-22T12:46:59 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test22 status=SUCCESS method=PatientMedicalRecord.test22()[pri:22, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:59 IST" name="setup" finished-at="2023-05-22T12:46:59 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test23()[pri:23, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:46:59 IST" name="test23" description="Redirect to patient details page by clicking on Return button" finished-at="2023-05-22T12:47:01 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test23 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:01 IST" name="teardown" finished-at="2023-05-22T12:47:01 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test23 status=SUCCESS method=PatientMedicalRecord.test23()[pri:23, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:01 IST" name="setup" finished-at="2023-05-22T12:47:01 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test24()[pri:24, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:01 IST" name="test24" description="Verfiy Recent Visit has become one entry for current date with Vitals,Attachment Upload tag" finished-at="2023-05-22T12:47:02 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test24 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:02 IST" name="teardown" finished-at="2023-05-22T12:47:02 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test24 status=SUCCESS method=PatientMedicalRecord.test24()[pri:24, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:02 IST" name="setup" finished-at="2023-05-22T12:47:02 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test25()[pri:25, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:02 IST" name="test25" description="Click on Add Past Visit and verify the future date is not clickable in the date picker" finished-at="2023-05-22T12:47:03 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test25 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:03 IST" name="teardown" finished-at="2023-05-22T12:47:03 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test25 status=SUCCESS method=PatientMedicalRecord.test25()[pri:25, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:03 IST" name="setup" finished-at="2023-05-22T12:47:03 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test26()[pri:26, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:03 IST" name="test26" description="Redirect to patient details page " finished-at="2023-05-22T12:47:03 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test26 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:03 IST" name="teardown" finished-at="2023-05-22T12:47:03 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test26 status=SUCCESS method=PatientMedicalRecord.test26()[pri:26, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:03 IST" name="setup" finished-at="2023-05-22T12:47:03 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test27()[pri:27, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:03 IST" name="test27" description="Click on Delete Patient and provide the reason" finished-at="2023-05-22T12:47:04 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test27 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:04 IST" name="teardown" finished-at="2023-05-22T12:47:04 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test27 status=SUCCESS method=PatientMedicalRecord.test27()[pri:27, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:04 IST" name="setup" finished-at="2023-05-22T12:47:04 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test28()[pri:28, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:04 IST" name="test28" description=" Click on confirm button and verify the toaster message" finished-at="2023-05-22T12:47:05 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test28 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:05 IST" name="teardown" finished-at="2023-05-22T12:47:05 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test28 status=SUCCESS method=PatientMedicalRecord.test28()[pri:28, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:05 IST" name="setup" finished-at="2023-05-22T12:47:05 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test29()[pri:29, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:05 IST" name="test29" description="It will redirect you to Find Patient Record menu where verify the deleted patient should not listed out in the table using search options" finished-at="2023-05-22T12:47:09 IST" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test29 -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:09 IST" name="teardown" finished-at="2023-05-22T12:47:09 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test29 status=SUCCESS method=PatientMedicalRecord.test29()[pri:29, instance:com.assessment.PatientMedicalRecord@50378a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="getResult()[pri:0, instance:com.assessment.PatientMedicalRecord@50378a4]" started-at="2023-05-22T12:47:09 IST" name="getResult" finished-at="2023-05-22T12:47:10 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.assessment.PatientMedicalRecord -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

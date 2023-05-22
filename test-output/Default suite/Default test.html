@@ -1,0 +1,225 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 22 12:45:55 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>74 seconds (74948 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test26()'><b>test26</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Redirect to patient details page </td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test11()'><b>test11</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Verify toaster message is appeared for the successful attachment</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test5()'><b>test5</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Cick on Register a patient menu</td>
+<td></td>
+<td>5</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test19()'><b>test19</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on End Visit and redirect to Patient details page</td>
+<td></td>
+<td>6</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test28()'><b>test28</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method:  Click on confirm button and verify the toaster message</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test18()'><b>test18</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on Save Form and Save button</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test1()'><b>test1</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: URL launched successfully</td>
+<td></td>
+<td>3</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test4()'><b>test4</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Verify dashboard page is redirected using Assertion</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test3()'><b>test3</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Pick any location below and click on Login</td>
+<td></td>
+<td>2</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test20()'><b>test20</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: In Patient details screen, verify the given Height and Weight is displayed correctly along with calculated BMI</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test13()'><b>test13</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Verify Attachment section has attachment</td>
+<td></td>
+<td>1</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test9()'><b>test9</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on Start Visit and Confirm the visit</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test6()'><b>test6</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Enter the detail of Demographics(Name, Gender, Birthdate) and Contact Info(Address, Phone number</td>
+<td></td>
+<td>1</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test23()'><b>test23</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Redirect to patient details page by clicking on Return button</td>
+<td></td>
+<td>2</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test16()'><b>test16</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Start Visit again and Click on Capture Vitals menu</td>
+<td></td>
+<td>7</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test17()'><b>test17</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method:  Enter Height & Weight and Verify displayed BMI is calculated correctly using BMI formula</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test25()'><b>test25</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on Add Past Visit and verify the future date is not clickable in the date picker</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test8()'><b>test8</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on Confirm and verify Patient details page is redirected and verify the age is calculated correctly based on the date of birth provided</td>
+<td></td>
+<td>5</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test10()'><b>test10</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method:  Click on Attachment and complete the upload process</td>
+<td></td>
+<td>16</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test14()'><b>test14</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Verfiy Recent Visit has one entry for current date with Attachment Upload tag</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test22()'><b>test22</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on Merge Visits, select these 2 visit and click on Merge Selected Visits button</td>
+<td></td>
+<td>3</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test2()'><b>test2</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Enter Username and password</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test21()'><b>test21</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Verfiy Recent Visit has one more new entry for current date with Vitals tag</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test24()'><b>test24</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Verfiy Recent Visit has become one entry for current date with Vitals,Attachment Upload tag</td>
+<td></td>
+<td>1</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test29()'><b>test29</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: It will redirect you to Find Patient Record menu where verify the deleted patient should not listed out in the table using search options</td>
+<td></td>
+<td>4</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test7()'><b>test7</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Then at Confirm page, verify the given Name, Gender, Birthdate, Address, Phone number are populated correctly using Assertion</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test27()'><b>test27</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on Delete Patient and provide the reason</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test12()'><b>test12</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method:  Redirect to Patient details screen</td>
+<td></td>
+<td>1</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+<tr>
+<td title='com.assessment.PatientMedicalRecord.test15()'><b>test15</b><br>Test class: com.assessment.PatientMedicalRecord<br>Test method: Click on the End Visit action at RHS</td>
+<td></td>
+<td>0</td>
+<td>com.assessment.PatientMedicalRecord@50378a4</td></tr>
+</table><p>
+</body>
+</html>
